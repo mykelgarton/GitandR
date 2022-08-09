@@ -1,2 +1,4 @@
-print("this is a test v1")
-print("this is the next v2")
+library(usethis)
+
+use_github(protocol = "https", auth_token = Sys.getenv("GITHUB_PAT"))
+#SAV E
